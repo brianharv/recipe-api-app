@@ -2,6 +2,14 @@
   "python-envs.defaultEnvManager": "ms-python.python:pyenv",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.indentSize": "tabSize"
+  },
+  "editor.guides.indentation": true,
+  "python.analysis.aiCodeActions": {
+    "implementAbstractClasses": true,
+    "generateSymbol": true,
+    "convertFormatString": true
   }
 }
